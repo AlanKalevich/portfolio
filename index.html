@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio - Alan Kalevich</title>
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <div class="page">
+
+        <header class="header">
+            <div class="header-top">
+                <h1 style="text-align: center;">Alan Kalevich</h1>
+                <input type="checkbox" id="theme-toggle" class="theme-checkbox" title="Cambiar tema">
+            </div>
+
+            <p>Estudiante de Licenciatura en Informática</p>
+            <p>HTML • CSS • JavaScript • TypeScript • Java • Python • SQL • C</p>
+        </header>
+
+        <section>
+            <h2>Sobre mí</h2>
+            <p>
+                Soy estudiante de informática interesado en desarrollo web.
+                Me gusta crear interfaces simples y funcionales.
+            </p>
+        </section>
+        <section>
+            <h2>Proyectos</h2>
+            <div id="projects-container"></div>
+        </section>
+
+        <section>
+            <h2>Contacto</h2>
+            <p>Email: alankalevich@gmail.com</p>
+            <a href="https://github.com/AlanKalevich" target="_blank">GitHub: https://github.com/AlanKalevich</a>
+        </section>
+
+    </div>
+
+    <template id="project-template">
+        <div class="project">
+
+            <div class="project-image"></div>
+
+            <div class="project-content">
+                <h3 class="project-title"></h3>
+                <p class="project-description"></p>
+
+                <button class="project-button">Ver más</button>
+            </div>
+
+        </div>
+    </template>
+
+    <script src="js/theme.js"></script>
+    <script src="js/projects.js"></script>
+
+</body>
+
+</html>

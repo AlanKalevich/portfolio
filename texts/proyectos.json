@@ -1,0 +1,49 @@
+[
+  {
+    "titulo": "Sistema de gestión",
+    "descripcion": "Aplicación para administrar usuarios y datos.",
+    "tecnologias": [
+      "TypeScript",
+      "Java",
+      "PostgreSQL"
+    ],
+    "imagen": "images/proyecto1.png"
+  },
+  {
+    "titulo": "E-commerce",
+    "descripcion": "sdaadsdfafdfsgdfsgsg fdsg fd sg fd sgf dsg fd sg   gfdsgfdsgfdsg fdsg fds gfd . fd sg fd sgf dsg fd sg   gfdsgfdsgfdsg fd fd sg fd sgf dsg fd sg   gfdsgfdsgfdsg fd fd sg fd sgf dsg fd sg   gfdsgfdsgfdsg fd fd sg fd sgf dsg fd sg   gfdsgfdsgfdsg fd fd sg fd sgf dsg fd sg   gfdsgfdsgfdsg fd fd sg fd sgf dsg fd sg   gfdsgfdsgfdsg fd fd sg fd sgf dsg fd sg   gfdsgfdsgfdsg fd fd sg fd sgf dsg fd sg   gfdsgfdsgfdsg fd fd sg fd sgf dsg fd sg   gfdsgfdsgfdsg fd fd sg fd sgf dsg fd sg   gfdsgfdsgfdsg fd fd sg fd sgf dsg fd sg   gfdsgfdsgfdsg fd fd sg fd sgf dsg fd sg   gfdsgfdsgfdsg fd fd sg fd sgf dsg fd sg   gfdsgfdsgfdsg fd fd sg fd sgf dsg fd sg   gfdsgfdsgfdsg fd fd sg fd sgf dsg fd sg   gfdsgfdsgfdsg fd fd sg fd sgf dsg fd sg   gfdsgfdsgfdsg fd fd sg fd sgf dsg fd sg   gfdsgfdsgfdsg fd fd sg fd sgf dsg fd sg   gfdsgfdsgfdsg fd ",
+    "tecnologias": [
+      "TypeScript",
+      "Java",
+      "PostgreSQL"
+    ],
+    "imagen": "images/proyecto2.png"
+  },
+  {
+    "titulo": "Red social",
+    "descripcion": "Aplicación para conectar personas y compartir contenido.",
+    "tecnologias": [
+      "TypeScript",
+      "Java",
+      "PostgreSQL"
+    ]
+  },
+  {
+    "titulo": "Blog personal",
+    "descripcion": "Plataforma para compartir artículos y pensamientos.",
+    "tecnologias": [
+      "TypeScript",
+      "Java",
+      "PostgreSQL"
+    ]
+  },
+  {
+    "titulo": "Gestor de tareas",
+    "descripcion": "Aplicación para organizar y gestionar tareas diarias.",
+    "tecnologias": [
+      "TypeScript",
+      "Java",
+      "PostgreSQL"
+    ]
+  }
+]

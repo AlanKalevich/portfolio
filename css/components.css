@@ -1,0 +1,73 @@
+/* ===== CARD ===== */
+
+.project {
+    display: flex;
+    flex-direction: column;
+
+    background: var(--card-bg);
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== IMAGE ===== */
+
+.project-image {
+    height: 140px;
+    background: linear-gradient(135deg, #4f46e5, #3b82f6);
+    background-size: cover;
+    background-position: center;
+}
+
+/* ===== CONTENT ===== */
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+}
+
+.project-title {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+
+.project-description {
+    color: var(--text-secondary);
+    font-size: 14px;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* ===== BUTTON ===== */
+
+.project-button {
+    margin-top: auto;
+
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+
+    background: var(--accent);
+    color: white;
+
+    cursor: pointer;
+
+    transition: background 0.2s ease;
+}
+
+.project-button:hover {
+    background: #2563eb; /* opcional mejorar luego */
+}
